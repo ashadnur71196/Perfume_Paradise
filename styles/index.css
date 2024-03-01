@@ -50,7 +50,7 @@ h1 {
     font-size: 3vh;
     color: rgb(232, 232, 238);
     margin: 0 !important;
-    background: -webkit-linear-gradient(0deg, #525252 10%, #000000 100%);
+    background: -webkit-linear-gradient(0deg, #5c5eff 10%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 2px;  
@@ -87,11 +87,6 @@ main {
     grid-gap: 20px;
 }
 
-/* External Link Styling */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
 
 a:hover {
     text-decoration: none;
@@ -166,7 +161,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #cfcece28;
+    background-color: #cfcecea6;
     color: rgb(0, 0, 0);
     font-weight: normal;
     text-align: center;
