@@ -52,18 +52,7 @@ h1 {
     background: -webkit-linear-gradient(0deg, #4749d3 0%, #111827 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-h4 {
-    font-family: "Jost", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2vh;
     text-align: center;
-    margin: 0 !important;
-    background: -webkit-linear-gradient(0deg, #10403B 0%, #10403bd0 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 
@@ -156,4 +145,28 @@ footer {
 
 .contact-form input[type="submit"]:hover {
     background-color: #3D5777;
+}
+
+
+.contact-info a:hover {
+    text-decoration: none;
+    /* Add box shadow */
+    background-color: #3d577700;
+    /* Change background color on hover */
+    border: #3D5777 solid 1px;
+    /* Add border on hover */
+    border-radius: 5px;
+    /* Add border radius */
+    padding: 5px;
+    /* Add padding */
+
+
+}
+
+.contact-info a{
+    text-decoration: none; /* Remove underline */
+    background-color: #07070762 !important; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius */
+    padding: 5px; /* Add padding */
+    color: #ffffff;
 }
