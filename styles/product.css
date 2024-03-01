@@ -47,9 +47,12 @@ h1 {
     font-size: 5vh;
     color: rgb(117, 115, 255);
     margin: 0 !important;
+    padding: 1vh 1vh 1vh 1vh;   
+    border-radius: 5px;
     background: -webkit-linear-gradient(0deg, #4749d3 0%, #111827 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    box-shadow: #10403B 0 0 1px;
 }
 
 h4 {
