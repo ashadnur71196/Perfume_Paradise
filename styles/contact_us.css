@@ -106,7 +106,7 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     background-color: #f9f9f944;
-    padding: 20px;
+    padding: 20px 50px 20px 20px;
     border-radius: 10px;
 }
 
@@ -127,7 +127,7 @@ footer {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 .contact-form textarea {
@@ -136,7 +136,7 @@ footer {
 
 .contact-form input[type="submit"] {
     background-color: #2C4264;
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
