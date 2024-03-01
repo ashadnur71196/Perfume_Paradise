@@ -49,7 +49,6 @@ h1 {
     font-style: normal;
     font-size: 3vh;
     color: rgb(232, 232, 238);
-    margin: 0 !important;
     background: -webkit-linear-gradient(0deg, #5c5eff 10%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -177,5 +176,5 @@ footer {
     text-align: center;
     margin: 0!important;
     /* padding-bottom: 20px; */
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
