@@ -1,0 +1,159 @@
+body {
+    background-image: url("../img/contact_us/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 ;
+    padding: 0;
+}
+
+header {
+    background-color: #2C4264;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vh;
+    color: rgb(117, 115, 255);
+    margin: 0 !important;
+    background: -webkit-linear-gradient(0deg, #4749d3 0%, #111827 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    text-align: center;
+    margin: 0 !important;
+    background: -webkit-linear-gradient(0deg, #10403B 0%, #10403bd0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+a:hover {
+    text-decoration: none;
+    /* Remove underline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add box shadow */
+    background-color: #3D5777;
+    /* Change background color on hover */
+    border: #3D5777 solid 1px;
+    /* Add border on hover */
+    border-radius: 5px;
+    /* Add border radius */
+    padding: 5px;
+    /* Add padding */
+
+
+}
+
+a.active {
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+    background-color: #3D5777; /* Change background color on hover */
+    border: #3D5777 solid 1px; /* Add border on hover */
+    border-radius: 5px; /* Add border radius */
+    padding: 5px; /* Add padding */
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #cfcece28;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: center;
+    margin: 0 !important;
+    letter-spacing: 2px;
+    
+}
+
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f944;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form h5 {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #2C4264;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #3D5777;
+}
